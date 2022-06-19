@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Dashboard - Assignment Blue Sky Analytics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+The website is hosted on: [Click here!](https://the-dashboard-8eb33.web.app/ 'Click here!')
 
-In the project directory, you can run:
+Installation Instructions:-
 
-### `npm start`
+1. Clone the code from the repository using `git clone`
+2. Locate the folder in terminal and run `npm install` to install required dependecies
+3. To start the website locally, run command `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+There are 5 pages on frontend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Sign in page:** This is the entry point to the web application. To move forward, use **sign in with google** functionality to get redirected to the /home route of the web application.
+2. **Sign up Page:** This is the sign up page of the website, this also has **sign up with google** functionality implemented. Clicking on it will redirect the user to the /home route of the web app.
+3. **Dashboard Page:** This is the dashboard of the web app, here there are charts funcitonal with dummy data. By changing values charts, the data changes and are reflected on the charts.
+4. **Users Page:** This is the users page, search and filter functionality are implemented on the dummy data used.
+5. **Settings Page:** This is the settings page of the user's account prefilled with dummy data.
 
-### `npm test`
+### Libraries Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Frontend_
 
-### `npm run build`
+1. react
+2. react-dom
+3. react-router-dom
+4. tailwindcss
+5. chartjs
+6. react-chartjs-2
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+***
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Questions regarding assignment**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Q1. What was the most challenging part?**
+The most challenging part in this application for me was to copy the exact styles given in the figma file withing the time period. Apart from this, integrating chart js library was indeed a challenging part as copying the exact styles given in the designs took a little time. 
+  
+**Q2. What was the most fun part?**
+The most fun part doing the assignment was that I was allowed to use tailwind css, otherwise It would have taken more time to complete. Apart the from this, whole assignment was worth investing time as there was lot to learn and practise. 
+  
+**Q3. What do you think is wrong with this task or could be made better in this task?**
+To be honest I felt this assignment a little lengthy as there were 5 pages to create. Also the functionality part was missing I felt. If there were additional functionalities to implement apart from the one's included then it'd have been more fun.  
+  
+***  
 
-### `npm run eject`
+## Self Evaluation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Summary:** This assignment was a great learning experience for me as I implemented many things that I've learnt by myself. I like the fact that I was able to complete this assignment withing 5 days in all respect. The way I have used tailwind css to create the exact designs given is the biggest positive of this assignment. Creating components that look exact same like the one's given in the design, with functionalities similar to the one's mentioned are great takeaways from this assignment. This dashboard can be actually used with real life data in production with added features, and nothing better then this can define the statisfaction I have for completing this assignment.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The thing that I could have done better in this assignment is refactoring of code in multiple files for funcitons that are defined and used withing the same components. This is one thing that I'd have improved. I'd liked to add more features and the first one being the full fledged authentication, a backend to support this high performant frontend. Adding form submissions on the settings page is also one thing that I'd loved to work on, on both frontend and backend. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- I'd rate knowledge of reactjs and javascript as 9 on 10.
+- I'd rate knowledge of understanding UI given as 8.5 on 10.
+- I'd rate knowledge of usage of external api to create charts as 9 on 10.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+***
+  
+### **Screenshots from the web app**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Sign in page!](/public/assets/Images/1.png "Sign in page")
+![Sign up page!](/public/assets/Images/2.png "Sign up page")
+![Dashboard page!](/public/assets/Images/3.png "Dashboard page")
+![Users Page!](/public/assets/Images/4.png "Users Page")
+![Settings Page!](/public/assets/Images/5.png "Settings Page")
